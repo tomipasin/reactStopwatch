@@ -21,27 +21,19 @@ O objeto retornado persistirá durante todo o ciclo de vida do componente.
 <img src="https://tomipasin.com/assets/img/hooks1.png" style="width: 680px"/>
 
 
+Para que tudo funcione temos quatro códigos básicos: um para start, pause, resume e reset.
+Em cada uma delas usamos as funções "setXXX" do useState para atualizar o valor das nossas consts.
 
-### O código:
-Projeto baseado no código original de Thiago Medeiros (https://github.com/thiagommedeiros/telegram-bot).
+<img src="https://tomipasin.com/assets/img/hooks2.png" style="width: 680px"/>
+
+O código está completamente comentado para facilitar a compreensão.
+
 
 ### Como testar?
 Clone este repositório e use o comando:
 ```sh
 npm install
 ```
-Vá no Telegram e busque pelo @BotFather para criar o seu bot e obter o seu token.
-Mais detalhes sobre o processo de criação do bot você encontra nesse link: <a>https://core.telegram.org/bots#3-how-do-i-create-a-bot</a>
-
-Crie um arquivo .env com o seu token. Eu deixei um ".env_TEMPLATE" neste código. 
-É só colocar o seu token e renomear para somente ".env".
-Exemplo:
-
-```sh
-TOKEN=[aqui coloque o token do seu bot criado com o BotFather no Telegram]
-```
-
-
 Este comando instalará as dependências que constam em package.json.
 Logo em seguida use:
 
@@ -49,21 +41,9 @@ Logo em seguida use:
 npm start
 ```
 
-Este bot está programado para permitir somente novos membros que não sejam bots, excluíndo os que forem bot imediatamente. Assim o captcha será exibido somente para usuários que tenham no seu contexto "is_bot: false".
-
-```sh
- if(message.new_chat_member.is_bot){
-        console.log('É bot. Vou remover...')
-        ctx.kickChatMember(message.new_chat_member.id)
-        return
-      }
-```
-
-
-
-Este bot está rodando tranquilamente em um servidor VPS Intel(R) Xeon(R) CPU E5-2630 v4 @ 2.20GHz x1 com 450MiB de memória e sistema Ubuntu server 18.04 LTS. Seu consumo médio de memória é 45MiB.
-
 
 Qualquer dúvida me chame por aqui ou pelo Telegram em @tomipasin. 
+
+
 
 
