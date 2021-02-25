@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/reactStopwatch/static/css/main.f50ff56b.chunk.css",
+    "main.js": "/reactStopwatch/static/js/main.e6d9cddf.chunk.js",
+    "main.js.map": "/reactStopwatch/static/js/main.e6d9cddf.chunk.js.map",
+    "runtime-main.js": "/reactStopwatch/static/js/runtime-main.c5c818af.js",
+    "runtime-main.js.map": "/reactStopwatch/static/js/runtime-main.c5c818af.js.map",
+    "static/js/2.98a89c0c.chunk.js": "/reactStopwatch/static/js/2.98a89c0c.chunk.js",
+    "static/js/2.98a89c0c.chunk.js.map": "/reactStopwatch/static/js/2.98a89c0c.chunk.js.map",
+    "static/js/3.91427ccd.chunk.js": "/reactStopwatch/static/js/3.91427ccd.chunk.js",
+    "static/js/3.91427ccd.chunk.js.map": "/reactStopwatch/static/js/3.91427ccd.chunk.js.map",
+    "index.html": "/reactStopwatch/index.html",
+    "static/css/main.f50ff56b.chunk.css.map": "/reactStopwatch/static/css/main.f50ff56b.chunk.css.map",
+    "static/js/2.98a89c0c.chunk.js.LICENSE.txt": "/reactStopwatch/static/js/2.98a89c0c.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/reactStopwatch/static/media/DS-DIGIT.063ff1f7.TTF"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c5c818af.js",
+    "static/js/2.98a89c0c.chunk.js",
+    "static/css/main.f50ff56b.chunk.css",
+    "static/js/main.e6d9cddf.chunk.js"
+  ]
+}
