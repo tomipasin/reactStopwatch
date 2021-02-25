@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap");
+
+@font-face{
+  font-family: "DS-DIGI";
+  src: url("./fonts/ds_digital/DS-DIGIT.TTF") format("truetype")
+       
+}
+
+body {
+  margin: 0;
+  font-family: "Quicksand", sans-serif;
+  background: rgb(241, 251, 246);
+  color: #010b40;
+}
+
+
+h1, h2, h3, h4 {
+  color: rgb(1, 36, 8);
+  text-align: center;
+  padding-top: 8px;
+  letter-spacing: 1.2px;
+  font-weight: 500;
+}
+
+.clock {
+  position: relative;
+  left: auto;
+  text-align: center;
+  background-color: rgb(151, 173, 146);
+  box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 325px;
+  height: 80px;
+  font-family: 'DS-Digi';
+  font-size: 13vh;
+  border: 3px solid rgb(1, 36, 8);
+  border-radius: 10px;
+}
+
+.stop{
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  text-align: center;
+  top: 250px;
+  left: 45%;
+  transform: translate(-50%, -50%);
+}
+
+button {
+  font-family: 'DS-Digi';
+  font-size: x-large;
+  outline: none;
+  background:  rgba(0, 0, 0, 0.2);
+  border: 1px solid  rgba(0, 0, 0, 0.2);
+  padding: 5px 2px;
+  border-radius: 5px;
+  color:  rgb(0, 0, 0);
+  cursor: pointer;
+  box-shadow: #010b40;  
+}
+
+.buttons {
+  padding-top: 0 auto;
+  margin: 0 auto;
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-evenly;
+  width: 150px;  
+}
+
+.center{
+  margin-top: 0px auto;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto; 
+}
+
+
+
+
+
